@@ -1,6 +1,6 @@
 class DatasetController < ApplicationController
 
   def index
-    @stuff = Datasets.retrieve_dataset
+    @dataset = Datasets.prepare_average
   end
 end

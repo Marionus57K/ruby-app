@@ -8,6 +8,8 @@ gem 'rails', '~> 6.1.4', '>= 6.1.4.1'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.4'
 
+gem 'countries', '~> 1.2', '>= 1.2.5', require:'countries/global'
+gem "chartkick"
 gem 'pg', '1.2.3'
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
